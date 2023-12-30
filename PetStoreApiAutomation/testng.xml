@@ -6,7 +6,8 @@
 </listeners>
   <test thread-count="5" name="PetUserTest">
     <classes>
-      <class name="api.petstore.tests.UserTests"/>
+     <!-- <class name="api.petstore.tests.UserTests"/>  -->
+      <class name="api.petstore.tests.UserTestsUsingEndPointsFromProp"/>
      <!-- <class name="api.petstore.tests.DataDrivenTests"/> -->
     </classes>
   </test> <!-- PetUserTest -->
