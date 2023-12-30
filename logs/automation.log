@@ -1,0 +1,55 @@
+09:13:21.490 [main] INFO  api.petstore.tests.UserTests - ******************* Creating User through post method ***********
+09:13:26.450 [main] INFO  api.petstore.tests.UserTests - ******************* User is Created through post method ***********
+09:13:26.465 [main] INFO  api.petstore.tests.UserTests - ******************* Reading User Info through Get method ***********
+09:13:27.819 [main] INFO  api.petstore.tests.UserTests - ******************* User details retrived ***********
+09:13:27.828 [main] INFO  api.petstore.tests.UserTests - ******************* Updating FirstName, LastName and Email through put method ***********
+09:13:30.740 [main] INFO  api.petstore.tests.UserTests - ******************* Updated FirstName, LastName and Email through put method ***********
+09:13:30.750 [main] INFO  api.petstore.tests.UserTests - ******************* Deleting user through delete method using userName ***********
+09:13:32.116 [main] INFO  api.petstore.tests.UserTests - ******************* User deleted successfully ***********
+15:24:30.323 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Creating User through post method ***********
+15:24:35.125 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User is Created through post method ***********
+15:24:35.162 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Reading User Info through Get method ***********
+15:24:36.364 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User details retrived ***********
+15:24:36.370 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Updating FirstName, LastName and Email through put method ***********
+15:24:38.806 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Updated FirstName, LastName and Email through put method ***********
+15:24:38.819 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Deleting user through delete method using userName ***********
+15:24:40.002 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User deleted successfully ***********
+15:25:21.239 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Creating User through post method ***********
+15:25:25.945 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Reading User Info through Get method ***********
+15:25:27.190 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User details retrived ***********
+15:25:27.201 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Updating FirstName, LastName and Email through put method ***********
+15:25:29.670 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Updated FirstName, LastName and Email through put method ***********
+15:25:29.685 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Deleting user through delete method using userName ***********
+15:25:30.850 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User deleted successfully ***********
+15:44:31.798 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Creating User through post method ***********
+15:44:37.871 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User is Created through post method ***********
+15:44:37.924 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Reading User Info through Get method ***********
+15:44:39.316 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User details retrived ***********
+15:44:39.322 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Updating FirstName, LastName and Email through put method ***********
+15:44:41.818 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Updated FirstName, LastName and Email through put method ***********
+15:44:41.822 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Deleting user through delete method using userName ***********
+15:44:42.982 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User deleted successfully ***********
+16:09:44.528 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Creating User through post method ***********
+16:09:49.570 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User is Created through post method ***********
+16:09:49.594 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Reading User Info through Get method ***********
+16:09:50.791 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User details retrived ***********
+16:09:50.795 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Updating FirstName, LastName and Email through put method ***********
+16:09:53.172 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Updated FirstName, LastName and Email through put method ***********
+16:09:53.175 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Deleting user through delete method using userName ***********
+16:09:54.316 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User deleted successfully ***********
+16:11:07.593 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Creating User through post method ***********
+16:11:11.515 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User is Created through post method ***********
+16:11:11.535 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Reading User Info through Get method ***********
+16:11:12.747 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User details retrived ***********
+16:11:12.749 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Updating FirstName, LastName and Email through put method ***********
+16:11:15.117 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Updated FirstName, LastName and Email through put method ***********
+16:11:15.121 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Deleting user through delete method using userName ***********
+16:11:16.244 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User deleted successfully ***********
+16:16:57.894 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Creating User through post method ***********
+16:17:01.733 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User is Created through post method ***********
+16:17:01.753 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Reading User Info through Get method ***********
+16:17:02.877 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User details retrived ***********
+16:17:02.879 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Updating FirstName, LastName and Email through put method ***********
+16:17:05.239 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Updated FirstName, LastName and Email through put method ***********
+16:17:05.241 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* Deleting user through delete method using userName ***********
+16:17:06.362 [main] INFO  api.petstore.tests.UserTestsUsingEndPointsFromProp - ******************* User deleted successfully ***********
