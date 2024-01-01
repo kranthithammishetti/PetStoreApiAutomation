@@ -5,9 +5,7 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import com.github.javafaker.Faker;
-
 import api.petstore.endpoints.UserEndPoints;
 import api.petstore.payloads.User;
 import io.restassured.response.Response;
@@ -15,7 +13,8 @@ import io.restassured.response.Response;
 public class UserTests {
 	Faker faker;
 	User userPayload;
-public Logger logger;
+	public	Logger logger;
+
 	@BeforeClass
 	public void setupData() {
 		faker = new Faker();
@@ -27,9 +26,9 @@ public Logger logger;
 		userPayload.setEmail(faker.internet().safeEmailAddress());
 		userPayload.setPassword(faker.internet().password(5, 10));
 		userPayload.setPhone(faker.phoneNumber().cellPhone());
-	
-		//logs
-		logger=LogManager.getLogger(this.getClass());
+
+		// Initializing logs
+		logger = LogManager.getLogger(this.getClass());
 	}
 
 	// Create User
@@ -39,7 +38,6 @@ public Logger logger;
 		Response resonse = UserEndPoints.createUser(userPayload);
 		resonse.then().log().all();
 		Assert.assertEquals(resonse.getStatusCode(), 200);
-		// Assert.assertEquals(resonse.getBody().asString()., null);
 		logger.info("******************* User is Created through post method ***********");
 	}
 

@@ -1,13 +1,12 @@
 package api.petstore.endpoints;
 
 import static io.restassured.RestAssured.given;
-
 import api.petstore.payloads.User;
 import io.restassured.http.*;
 import io.restassured.response.Response;
 
 /**
- * This will created to perform the CRUD operations on the API.
+ * This class is created to perform the CRUD operations on the User API.
  **/
 public class UserEndPoints {
 //Create User
@@ -18,7 +17,7 @@ public class UserEndPoints {
 			.accept(ContentType.JSON)
 			.body(payload)
 			.when()
-			.post(Routes.post_url);
+			.post(Routes.user_post_url);
 		return response;
 	}
 // Read / retrive / get user
@@ -27,7 +26,7 @@ public class UserEndPoints {
 		Response response= given()
 				.pathParam("username", username)
 				.when()
-				.get(Routes.get_url);
+				.get(Routes.user_get_url);
 		return response;
 	}	
 	
@@ -40,7 +39,7 @@ public class UserEndPoints {
 			.pathParam("username", username)
 			.body(payload)
 			.when()
-			.put(Routes.update_url);
+			.put(Routes.user_update_url);
 		return response;
 	}
 //Delete user
@@ -49,7 +48,7 @@ public class UserEndPoints {
 		Response response= given()
 				.pathParam("username", username)
 				.when()
-				.delete(Routes.delete_url);
+				.delete(Routes.user_delete_url);
 		return response;
 	}	
 	
