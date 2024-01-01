@@ -14,7 +14,7 @@ public class Common {
 
 	public static int randomNumberBetween(int origin, int toNum) {
 		Random random = new Random();
-
-		return random.nextInt(origin, toNum);
+		int number = random.nextInt(origin, toNum);
+		return number;
 	}
 }
