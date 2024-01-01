@@ -1,6 +1,5 @@
 package api.petstore.tests;
 
-import java.util.Random;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
@@ -17,21 +16,21 @@ public class StoreTests {
 	Faker faker;
 	Store storePayload;
 	public Logger logger;
-	Random random;
+	
 
 	@BeforeClass
 	public void setpData() {
 		faker = new Faker();
 		storePayload = new Store();
 		logger = LogManager.getLogger(this.getClass());
-		random = new Random();
+		
 		logger.info("Started Executing Stre Tests");
 		logger.info("Creating Test Data for Store Creation");
 		// Setup Store Test Data
 		// storePayload.setPetId(random.nextInt(5, 10));
 		storePayload.setId(faker.idNumber().hashCode());
 		storePayload.setPetId(faker.idNumber().hashCode());
-		storePayload.setQuantity(random.nextInt(1, 5));
+		storePayload.setQuantity(Common.randomNumberBetween(1, 5));
 		storePayload.setShipDate(Common.currentDateTimeWithHMS());
 		storePayload.setStatus(STATUS.PLACED.toString());
 		storePayload.setComplete(faker.bool().bool());
@@ -61,7 +60,7 @@ public class StoreTests {
 	@Ignore
 	public void updateStoreById() {
 		logger.info("******************* Updating Quantity, Shipment Date ***********");
-		storePayload.setQuantity(random.nextInt(5));
+		storePayload.setQuantity(Common.randomNumberBetween(1, 5));
 		storePayload.setShipDate(Common.currentDateTimeWithHMS());
 		Response resonse = StoreEndPoints.updateStore(this.storePayload.getId(), storePayload);
 		resonse.then().log().all();

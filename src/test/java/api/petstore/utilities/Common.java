@@ -2,6 +2,7 @@ package api.petstore.utilities;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Random;
 
 public class Common {
 	public static String currentDateTimeWithHMS() {
@@ -9,5 +10,11 @@ public class Common {
 		LocalDateTime currentDateTime = LocalDateTime.now();
 		String formattedDateTime = currentDateTime.format(formatter);
 		return formattedDateTime;
+	}
+
+	public static int randomNumberBetween(int origin, int toNum) {
+		Random random = new Random();
+
+		return random.nextInt(origin, toNum);
 	}
 }
