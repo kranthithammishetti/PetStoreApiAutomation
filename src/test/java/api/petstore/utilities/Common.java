@@ -13,8 +13,22 @@ public class Common {
 	}
 
 	public static int randomNumberBetween(int origin, int toNum) {
+
+		// Create a Random object
 		Random random = new Random();
-		int number = random.nextInt(origin, toNum);
-		return number;
+
+		// Generate a random number within the specified range
+		int randomNumber = random.nextInt(toNum - origin + 1) + origin;
+
+		// Print the generated random number
+		System.out.println("Random Number: " + randomNumber);
+
+		return randomNumber;
 	}
+
+	// for testing
+	/*
+	 * public static void main(String[] args) { randomNumberBetween(1, 6); }
+	 */
+
 }
