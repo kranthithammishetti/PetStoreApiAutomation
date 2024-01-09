@@ -28,6 +28,7 @@ public class StoreModuleDataDrivenTests {
 
 		Response response = StoreEndPoints.createStore(storePayload);
 		Assert.assertEquals(response.getStatusCode(), 200);
+		
 	}
 
 	// DeleteStore

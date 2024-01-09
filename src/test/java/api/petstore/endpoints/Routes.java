@@ -13,7 +13,7 @@ package api.petstore.endpoints;
  **/
 
 public class Routes {
-
+	// https://petstore.swagger.io/v2/pet
 	public static String base_url = "https://petstore.swagger.io/v2";
 	// https://petstore.swagger.io/v2/store/order
 
@@ -31,6 +31,10 @@ public class Routes {
 	public static String store_update_url = base_url + "/store/order/{storeId}";
 
 	// Pet Module
-
-	// here you will create Pet modules URLs
+	public static String createPet_post_url = base_url + "/pet";
+	public static String getPet_get_url = base_url + "/pet/{petId}";
+	public static String updatePet_put_url = base_url + "/pet";
+	public static String deletePet_delete_url = base_url + "/pet/{petId}";
+	
+	
 }
